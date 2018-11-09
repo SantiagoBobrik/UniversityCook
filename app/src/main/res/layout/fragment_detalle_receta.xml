@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Vista.DetalleReceta"
+    android:orientation="vertical"
+    android:background="@drawable/maderablanca">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+
+        tools:src="@drawable/tortilla_papas"
+        android:scaleType="centerCrop"
+        android:id="@+id/imageComida"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textTitulo"
+        android:textStyle=""
+        tools:text="@string/hello_blank_fragment"
+        android:gravity="center"
+        android:background="#b3ffffff"
+        android:textColor="#FFFF793A"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_below="@id/imageComida"
+        />
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/ingredientes"
+            tools:text="@string/hello_blank_fragment"
+            android:gravity="center"
+            android:layout_below="@id/textTitulo"
+            android:background="#b3ffffff"
+            android:textColor="#FFFF793A"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-smallcaps"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/procedimiento"
+            tools:text="@string/hello_blank_fragment"
+            android:gravity="center"
+            android:background="#b3ffffff"
+            android:textColor="#FFFF793A"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:layout_below="@id/ingredientes"
+            />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
+
